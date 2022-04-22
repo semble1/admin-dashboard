@@ -1,7 +1,45 @@
 body {
     margin: 0;
     padding: 0;
+    height: 100vh;
 }
 ul {
     list-style: none;
+}
+.container, .full, .trending-info {
+    display: flex;
+}
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main {
+    width: 100%;
+}
+.main, .header {
+    display: flex;
+    flex-direction: column;
+}
+.header-top, .search, .profile, .header-bottom, .greeting, .project-icons {
+    display: flex;
+}
+.search, .profile, .greeting, .buttons, .trending-info, .project-icons {
+    gap: 30px;
+}
+.header-top, .header-bottom, .full {
+    justify-content: space-around;
+}
+.greeting-icon, .buttons, .trending-icon {
+    display: flex;
+    align-items: center;
+}
+.project-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
+    height: 100%;
+}
+.project-icons {
+    justify-content: flex-end;
 }
