@@ -4,7 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <script src="script.js" defer></script>
     <title>Dashboard</title>
 </head>
@@ -34,21 +38,27 @@
             <div class="header">
                 <div class="header-top">
                     <div class="search">
-                        <div class="search-icon">i</div>
-                        <div class="search-bar">Search something here</div>
+                        <span class="material-symbols-outlined">
+                            search
+                        </span>
+                        <input type="text" class="search-bar">
                     </div>
                     <div class="profile">
-                        <div class="notification">i</div>
-                        <div class="profile-pic">i</div>
+                        <span class="material-symbols-outlined">
+                            notifications
+                        </span>
+                        <div class="profile-pic">
+                            <img src="./assets/pfp.jpg" alt="Profile picture" class="pfp">
+                        </div>
                         <div class="profile-name">Jafor Kalam</div>
                     </div>
                 </div>
                 <div class="header-bottom">
                     <div class="greeting">
-                        <div class="greeting-icon">i</div>
+                        <img src="./assets/pfp.jpg" alt="Profile picture" class="pfp-greet">
                         <div class="greeting-full">
-                            <p>Hi there,</p>
-                            <h1>Jafor Kalam (@jkalam)</h1>
+                            <p class="greeting-text">Hi there,</p>
+                            <h1 class="greeting-text">Jafor Kalam (@jkalam)</h1></p>
                         </div>
                     </div>
                     <div class="buttons">
